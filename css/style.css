@@ -1,0 +1,29 @@
+h1 {
+    color: rgb(241, 125, 229);
+    text-align: center;
+    text-size-adjust: 100px;
+}
+
+h2 {
+    color: rgb(241, 125, 229);
+    text-align: center;
+}
+
+.header {
+background-color: rgb(130, 222, 146);
+}
+
+.navbar {
+display: flex; 
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+
+}
