@@ -1,27 +1,36 @@
-h1 {
-    color: rgb(241, 125, 229);
-    text-align: center;
-    text-size-adjust: 100px;
+* {
+    box-sizing: border-box
+    margin: 0;
+    padding: 0;
 }
 
-h2 {
-    color: rgb(241, 125, 229);
-    text-align: center;
+.body {
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header {
-background-color: rgb(130, 222, 146);
-}
+    background-color: rgb(130, 222, 146);
+    }
 
 .container {
 background-color: rgb(130, 222, 146);
 display: flex; 
 flex-wrap: wrap;
 }
+.photo {
+    
+   
 
-.logo {
-    display: flex;
-    float: left;
-    size-adjust:-50px;
+}
+.h1 {
+    color: rgb(241, 125, 229);
+    text-align: center;
+    font-style: Georgia;
+    text-size-adjust: 100px;
+}
 
+.h2 {
+    color: rgb(241, 125, 229);
+    text-align: center;
+    font-style: Georgia;
 }
